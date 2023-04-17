@@ -1,1 +1,2 @@
-import "./components/myMenu.js"
+import { myMenu } from "./components/myMenu.js";
+myMenu.show();

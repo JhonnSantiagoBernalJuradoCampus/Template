@@ -13,7 +13,9 @@ export class myMenu extends HTMLElement{
         this.attachShadow({ mode: "closed"})
     }
     texto(){
-        return `Hola 7`
+        return `CarrangaXD`
+    }
+    static show(){
+        customElements.define("my-h7", myMenu);
     }
 }
-customElements.define("my-h7", myMenu);
